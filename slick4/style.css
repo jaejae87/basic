@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+
+.slider img{width: 100%;}
+
+.slider .slick-slide{padding-right: 25px;}
+.slider .slick-dots{
+    position: absolute;
+    bottom: 0; left: 100px;
+}
+.slider .slick-dots li{
+    float: left;
+    width: 12px; height: 12px;
+    background: #dedede;
+    list-style: none;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.slider .slick-dots li.slick-active{
+    background-color: #00a651;
+}
+.slider .slick-dots li button{
+    font-size: 0; line-height: 0; 
+    background: none; border: none;}

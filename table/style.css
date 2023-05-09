@@ -1,0 +1,164 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+.wrap{width: 900px; margin: 0 auto;}
+.wrap>div{margin-top: 50px;
+border-top: 1px solid #ddd;
+}
+.wrap>div h2{text-align: center; 
+  margin: 10px 0;
+}
+.table1{}
+.table1 table{border: 1px solid #ccc;
+width: 100%; text-align: center;
+}
+.table1 table tr{}
+.table1 table tr th{border: 1px solid #ccc;}
+.table1 table tr td{border: 1px solid #ccc;}
+
+.table1-2{}
+.table1-2 table{
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.table1-2 table tr{}
+.table1-2 table tr th{border: 1px solid #ccc;}
+.table1-2 table tr td{border: 1px solid #ccc;}
+
+
+.table2{}
+.table2 table{width: 100%;
+}
+.table2 table,
+.table2 table tr th,
+.table2 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+background-color: bisque;
+}
+.table2 table tr:nth-child(1){
+    border-bottom: 3px double #000;}
+.table2 table tr:nth-child(2){
+    height: 100px;
+}
+.table2 table tr th:nth-child(1){width: 20%;}
+.table2 table tr th:nth-child(2){width: 60%;}
+.table2 table tr th:nth-child(3){width: 20%;}
+
+
+.table3 table{
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.table3 table tr{}
+.table3 table tr th{border: 1px solid #ccc;}
+.table3 table tr td{border: 1px solid #ccc;}
+.table3 table,
+.table3 table tr th,
+.table3 table tr td{
+border-collapse: collapse;
+padding: 15px;
+text-align: center;
+}
+
+.table4 table{width: 100%;}
+.table4 table,
+.table4 table tr th,
+.table4 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+background-color: bisque;
+}
+
+.table5 table{width: 100%;}
+.table5 table,
+.table5 table tr th,
+.table5 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+background-color: bisque;
+}
+
+.table6 table{width: 100%;}
+.table6 table,
+.table6 table tr th,
+.table6 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+background-color: bisque;
+}
+
+.table7 table{width: 100%;}
+.table7 table,
+.table7 table tr th,
+.table7 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+}
+/* .table7 table tr:nth-child(even){   //even짝수 
+ background-color: rgba(167, 232, 179, 0.599);
+} */
+
+.table7 table tr:nth-child(2n){/* //짝수   */
+    background-color: rgba(167, 232, 179, 0.599);
+   }
+
+/* .table7 table tr:nth-child(odd){
+    background-color: rgba(230, 144, 86, 0.338);
+} */
+.table7 table tr:nth-child(2n+1){ /* //홀수 */
+    background-color: rgba(230, 144, 86, 0.338);
+}
+
+
+.table7 table tr th:nth-child(even),
+.table7 table tr td:nth-child(even){
+    background-color: rgba(109, 219, 138, 0.547);
+}
+
+
+.table8 table{width: 100%;}
+.table8 table,
+.table8 table tr th,
+.table8 table tr td{
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+}
+.table8 table tr{border-bottom: 1px solid #ccc;
+transition: 0.3s;
+}
+.table8 table tr:hover{
+    background-color: rgba(104, 223, 191, 0.596);
+}
+
+.table9 table{width: 100%; margin-bottom: 50px;}
+.table9 table,
+.table9 table tr th,
+.table9 table tr td{
+border: 1px solid #ccc;
+border-collapse: collapse;/* table열사이의 공간없애기 */
+padding: 15px;
+text-align: center;
+}
+
+.table9 colgroup col:nth-child(1){
+    background-color: rgba(120, 199, 173, 0.638);
+}
+.table9 colgroup col:nth-child(2){
+    background-color: rgba(237, 204, 105, 0.638);
+}
+.table9 colgroup col:nth-child(3){
+    background-color: rgba(105, 140, 237, 0.638);
+}

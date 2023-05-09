@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>singleProduct</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/menu_Icon_left.svg" alt="menu_icon_left" class="menu_icon_left">
+    <h2>Product Details</h2>
+    <img src="images/menu_Icon_right.svg" alt="menu_icon_right" class="menu_icon_right">
+  </header>
+
+  <div class="top_info">
+    <h2>Modern T-shirt for Women</h2>
+    <div class="rate">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+  </div> <!-- //top_info -->
+
+  <div class="slider_pic clearfix">
+    <div>
+      <img src="images/product_detail_01.jpg" alt="img1">
+    </div>
+    <div>
+      <img src="images/product_detail_02.jpg" alt="img2">
+    </div>
+    <div>
+      <img src="images/product_detail_01.jpg" alt="img3">
+    </div>
+    <div>
+      <img src="images/product_detail_02.jpg" alt="img4">
+    </div>
+  </div> <!-- //slider_pic -->
+
+  <div class="mid_text_box">
+    <h3>$21.99</h3>
+    <p>Look stunning with this modern t-shirt.
+      it’s comfortable and attractive</p>
+
+    <div class="selc">
+      <form action="#" class="form1">
+        <select name="color" id="color">
+          <option value="">Color</option>
+          <option value="white">white</option>
+          <option value="black">black</option>
+          <option value="yellow">yellow</option>
+        </select>
+      </form>
+      <form action="#" class="form2">
+        <select name="sizes" id="sizes">
+          <option value="">Sizes</option>
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </form>
+    </div> <!-- //selc -->
+  </div> <!-- //mid_text_box -->
+
+  <div class="add_btn">
+    <div class="container">
+      <a href="shoppingCart.html" class="btn">
+        ADD TO CART
+      </a>
+    </div> <!-- //container -->
+  </div> <!-- //add_btn -->
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider_pic').slick({
+        infinite: false,
+        slidesToShow: 1.2,
+        dots: true,
+        arrows: false,
+      });
+    });
+  </script>
+
+</body>
+
+</html>
